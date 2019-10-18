@@ -1,0 +1,83 @@
+body{
+	background-image: url("../img/backgroung.png");
+	background-size: cover;
+	background-attachment: fixed;
+	color: #000;
+}
+.kanan{
+	float: right;
+}
+.navbar{
+	background-color: #0e2ffa;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover{
+	color: #000;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #000;
+	background-color: #39a0e9;
+}
+
+.depan{
+	border: 1px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+	background-color: #fff;
+	opacity: 0.8;
+}
+
+.container{
+	margin: 0px;
+	width: 100%;
+}
+.panel-default > .panel-heading{
+	background-color: #0e2ffa;
+	color: #fff;
+}
+.form-group{
+	width: 100%;
+}
+.form-control{
+	margin: 5px;
+}
+.keliling{
+	border: 1px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+	background-color: #fff;
+}
+.col-sm-12.keliling{
+	margin-bottom: 20px;
+}
+
+footer{
+	height: 50px;
+	background-color: #141414;
+	position: fixed;
+	bottom: 0;
+}
+
+footer.container{
+	width: 100%;
+	padding: 0px;
+}
+footer.container p{
+	padding: 12px ;
+	color: #fff;
+}
+@media (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+		color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+		color: #000;
+	}
+}
